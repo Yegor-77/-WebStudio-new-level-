@@ -1,0 +1,81 @@
+.adress-lin {
+  color: var(--footer-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
+}
+
+.adress-https {
+  color: var(--footer-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
+}
+
+.portfolio-button {
+  color: var(--footer-text);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.48px;
+  background: #f5f4fa;
+  color: var(--header-text);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.images-text {
+  color: var(--header-text);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.images-title {
+  color: var(--main-text);
+
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
+}
+
+.footerr {
+  background-color: var(--main-background);
+}
+
+.comand {
+  background-color: var(--footer-main-background);
+}
+
+.header-line {
+  display: flex;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-line {
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.line-head {
+  display: flex;
+  align-items: left;
+}

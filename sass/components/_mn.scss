@@ -1,0 +1,135 @@
+.portfolio-button {
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-bottom: 50px;
+  margin-top: 96px;
+  gap: 8px;
+  background-position: center;
+}
+
+.portfolio-button:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
+  background-color: var(--header-color);
+  border-radius: 4px;
+  padding-top: px;
+}
+
+.dablle-footer {
+  color: #fff;
+
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.helping-div {
+  display: flex;
+}
+
+.dablle-footer-line {
+  display: flex;
+  gap: 10px;
+}
+.dabble-div {
+  margin-top: 72px;
+  margin-left: 35px;
+}
+.dablle-footer {
+  margin-left: 35px;
+}
+
+/*/
+.comand-iteamss {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  background-color: #2196f3;
+  left: 19%;
+  right: 19%;
+}
+  /*/
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #00000016;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  overflow: auto;
+  overflow-x: auto;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+.mn-btnn {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 485px;
+}
+
+/*/
+  hidden- is invisible
+  auto- auto
+  scroll-  завжди
+
+ /*/
+.logos-div {
+  gap: 14px;
+  background-position: center;
+  align-items: center;
+  margin-left: 41px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.comand-iteam {
+  background: #fff;
+}
+.comand-iteamss {
+  background: #fff;
+}
+.header-img {
+  margin-right: 10px;
+}
+.header-iteamer:hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    opacity 0.5s cubic-bezier(0.83, -0.08, 0.032, 1) 250ms;
+
+  color: white;
+}
+.modal-text {
+  margin-left: 10px;
+  color: #212121;
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
